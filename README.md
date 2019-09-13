@@ -2,7 +2,7 @@
 
 > Personal blog
 
-Made with Jekyll using the [Chalk](https://https://github.com/nielsenramon/chalk) theme.
+Made with Jekyll using the [Chalk](https://github.com/nielsenramon/chalk) theme.
 
 ## Usage
 
