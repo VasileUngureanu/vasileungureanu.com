@@ -17,7 +17,7 @@ set -o pipefail
 #######################################
 checkAllShellScripts(){
 # shellcheck disable=SC2044
-for file in $(find . -type f \( -name "*.sh" \));
+for file in $(find . -not -path "./_assets/*"  -type f \( -name "*.sh" \));
   do shellcheck "${file}";
 done;
 }
