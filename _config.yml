@@ -1,26 +1,27 @@
 # Site settings
-title:          Vasile Ungureanu
-description:    "Personal blog"
-url:            "https://vasileungureanu.com"
+title: Vasile Ungureanu
+description: "Personal blog"
+url: "https://vasileungureanu.com"
 
 # Author
 author:
-  name:         Vasile Ungureanu
-  url:          https://vasileungureanu.github.io/about
-  email:        vasile.v.ungureanu@gmail.com
+  name: Vasile Ungureanu
+  url: https://vasileungureanu.github.io/about
+  email: vasile.v.ungureanu@gmail.com
 
-disqus_identifier: vasileungureanu # Add your Disqus identifier
+# Integrations  
+disqus_identifier: vasileungureanu
 google_analytics: UA-147818401-1
 
 # Build settings
-markdown:       kramdown
+markdown: kramdown
 include:
   - _pages
 
 # Assets
 sass:
-  sass_dir:     _sass
-  style:        compressed
+  sass_dir: _sass
+  style: compressed
 
 # Gems
 plugins:
@@ -30,8 +31,8 @@ plugins:
   - jemoji
 
 # Permalinks
-permalink:      /:year-:month-:day/:title
-paginate:       15
+permalink: /:year-:month-:day/:title
+paginate: 15
 
 # Excludes
 exclude: [ Gemfile, Gemfile.lock, tale.gemspec ]
