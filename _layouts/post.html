@@ -21,7 +21,12 @@ layout: default
   <div class="post-line"></div>
 
   {{ content }}
-
+  
+  {% if site.disqus_identifier %}
+     <div id="disqus_thread" class="article-comments"></div>
+     <script src="https://{{ site.disqus_identifier }}.disqus.com/embed.js" async defer></script>
+     <noscript>Please enable JavaScript to view the comments.</noscript>
+  {% endif %}
 </div>
 
 <div class="pagination">
