@@ -8,6 +8,14 @@
         </a>
       </li>
     {% endif %}
+    {% if site.tags_enabled == true %}
+    <li>
+      <a href="{{ 'tags' | relative_url }}" title="Tags">
+        {% include svg-icon.html icon="tag" %}
+      </a>
+    </li>
+    {% endif %}
+<!--
     {% if site.social.twitter %}
       <li>
         <a href="https://twitter.com/{{ site.social.twitter }}" rel="noreferrer noopener" target="_blank" title="Twitter">
@@ -162,6 +170,7 @@
         </a>
       </li>
     {% endif %}
+-->
     {% if site.rss_enabled == true %}
       <li>
         <a href="{{ 'feed.xml' | relative_url }}" rel="noreferrer noopener" target="_blank" title="RSS">

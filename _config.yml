@@ -5,11 +5,11 @@ name: Vasile Ungureanu
 paginate: 25
 url: https://vasileungureanu.com # add your site url (format: https://example.com)
 
-sitemap: true
 # Optional settings
 
 theme_toggle: true # Change to true if you wish to show an icon in the navigation for dynamic theme toggling
-about_enabled: false # Change to true if you wish to show an icon in the navigation that redirects to the about page
+about_enabled: true # Change to true if you wish to show an icon in the navigation that redirects to the about page
+tags_enabled: true # Change to true if you wish to show an icon in the navigation that redirects to tags page
 discus_identifier: vasileungureanu # Add your Disqus identifier
 ga_analytics: UA-147818401-1 # Add your GA Tracking Id
 local_fonts: false # Change to true if you wish to use local fonts
