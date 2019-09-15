@@ -2,9 +2,50 @@
 // About
 // =============================================================================
 
-.about {
-  padding: 100px 0;
+.about-page-header {
+  margin-top: 0px;
+}
+
+.about-page {
+  text-align: center;
+  padding: 50px 0;
   h1 {
-    margin: 50px 0 15px;
+    margin: 0 0 15px 0;
   }
+}
+
+.about-links {
+  float: center;
+  padding: 0;
+  margin: 15px 0 0;
+  list-style: none;
+  li {
+    display: inline-block;
+    margin-left: 20px;
+    vertical-align: middle;
+    &:first-child {
+      margin-left: 0;
+    }
+    a {
+      font-size: 18px;
+      color: $header-link-color;
+      svg {
+        width: 16px;
+        height: 16px;
+        fill: $header-link-color;
+      }
+      &:hover svg {
+        fill: $header-link-color-hover;
+      }
+    }
+  }
+}
+
+img {
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 150px;
+  height: 150px;
 }
