@@ -1,3 +1,5 @@
+[![CircleCI](https://circleci.com/gh/VasileUngureanu/vasileungureanu.com.svg?style=svg)](https://circleci.com/gh/VasileUngureanu/vasileungureanu.com)
+
 # vasileungureanu.com
 
 > Personal blog
