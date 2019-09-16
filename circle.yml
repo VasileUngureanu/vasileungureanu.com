@@ -10,10 +10,8 @@ machine:
 dependencies:
   pre:
     - gem install jekyll bundler
-
     - bundle check || bundle install
     - bundle update
-
     - npm install -g yarn
     - yarn install --modules-folder ./_assets/yarn
 
