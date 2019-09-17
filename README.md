@@ -1,6 +1,6 @@
-[![CircleCI](https://circleci.com/gh/VasileUngureanu/vasileungureanu.com.svg?style=svg)](https://circleci.com/gh/VasileUngureanu/vasileungureanu.com)
-
 # vasileungureanu.com
+
+<a href="https://github.com/VasileUngureanu/repository-template/blob/master/LICENSE"><img src="https://img.shields.io/badge/license-MIT-green.svg" alt="License"></a>
 
 > Personal blog
 
