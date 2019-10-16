@@ -6,6 +6,13 @@
 
 Made with Jekyll using the [Chalk](https://github.com/nielsenramon/chalk) theme.
 
+## Prerequisites
+
+Make sure you have installed all of the following prerequisites on your development machine:
+
+* [Ruby](https://www.ruby-lang.org/en/)
+* [Node.js](https://nodejs.org/en/)
+
 ## Usage
 
 1. After local cloning run `./bootstrap.sh`.
