@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #
-# Deploys to Github Pages
+# Deploys to Github Pages.
 
 # If a command fails then do not proceed and fail this script too
 set -o errexit
