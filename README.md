@@ -16,7 +16,7 @@ Make sure you have installed all of the following prerequisites on your developm
 ## Usage
 
 1. After local cloning run `./bootstrap.sh`.
-1. Build your site any time a source file changes and serve it locally `./serve.sh`.<br/>
+1. Build your site any time a source file changes and serve it locally `./serve.sh`.<br />
    To preview your site with drafts, run `./serve.sh --drafts`.
 
 1. Deploy to Github Pages `./deploy.sh`. 
