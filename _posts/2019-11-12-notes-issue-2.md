@@ -1,7 +1,7 @@
 ---
 
 layout: post
-title: "Notes: Issue #3"
+title: "Notes: Issue #2"
 description: "Notes on articles I study, talks I watch, books I read and podcasts I listen."
 tags: [notes, remote-work, technical-blogging]
 
@@ -50,5 +50,22 @@ Here are the latest notes that I took for you (and me).
 * Edit your work before publishing.
 * When you are sure that the blog post is perfect, publish it.
 * Promote your post.
+
+[How to write a great technical blog post](https://www.freecodecamp.org/news/how-to-write-a-great-technical-blog-post-414c414b67f6/)
+
+* Find a good topic and commit to it.
+* Write about what you know, what you learned recently or area where is lacking content.
+* Your blog post may seem boring to you because you know the topic.
+* Make your goals and audience-specific.
+* Have a beginning, middle, and end.
+* Get feedback and iterate.
+* Add finishing touches: packaging, publication, and promotion.
+
+[Rob Pike's 5 Rules of Programming](https://users.ece.utexas.edu/~adnan/pike.html)
+
+Despite that there are 5 rules, I personally took only these ideas:
+
+* In most of the cases simple algorithms are more suitable than fancy ones.
+* Data structures are central to programming, not algorithms because if you've chosen the right data structures and organized things well, the algorithms will almost always be self-evident.
 
 _The idea of ​​taking notes came to me when I discovered [in.snippets(): TL;DR for engineers](https://insnippets.appsmith.com/)._
