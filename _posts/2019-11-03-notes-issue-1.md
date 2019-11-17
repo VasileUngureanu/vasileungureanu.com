@@ -2,7 +2,7 @@
 
 layout: post
 title: "Notes: Issue #1"
-description: "Notes on articles I study, talks I watch, books I read and podcasts I listen."
+description: "Notes on articles I study, talks I watch and podcasts I listen."
 tags: [notes, technical-blogging, blogging]
 
 ---

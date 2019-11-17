@@ -2,7 +2,7 @@
 
 layout: post
 title: "Notes: Issue #"
-description: "Notes on articles I study, talks I watch, books I read and podcasts I listen."
+description: "Notes on articles I study, talks I watch and podcasts I listen."
 tags: [notes]
 
 ---
@@ -14,8 +14,6 @@ Here are the latest notes that I took for you (and me).
 ### Articles
 
 ### Talks
-
-### Books
 
 ### Podcasts
 
