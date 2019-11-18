@@ -3,7 +3,7 @@
 layout: post
 title: "Notes: Issue #3"
 description: "Notes on articles I study, talks I watch and podcasts I listen."
-tags: [notes, pair-programming, tdd]
+tags: [notes, pair-programming, tdd, testing]
 
 ---
 
@@ -67,5 +67,22 @@ Guidelines:
 * The size of steps is often related to the confidence we have in the codebase and our understanding of the domain.
 * The size of steps in TDD can influence the final design we implement.
 * There are is no one correct size of steps in TDD. We should take factors like confidence in the codebase, domain knowledge, design, architecture and probably other factors into account.
+
+[Test Desiderata](https://medium.com/@kentbeck_7670/test-desiderata-94150638a4b3)
+
+A test should exhibit most of these properties:
+
+* Isolated — tests should return the same results regardless of the order in which they are run.
+* Composable — if tests are isolated, then I can run 1 or 10 or 100 or 1,000,000 and get the same results.
+* Fast — tests should run quickly.
+* Inspiring — passing the tests should inspire confidence.
+* Writable — tests should be cheap to write relative to the cost of the code being tested.
+* Readable — tests should be comprehensible for the reader, invoking the motivation for writing this particular test.
+* Behavioral — tests should be sensitive to changes in the behavior of the code under test. If the behavior changes, the test result should change.
+* Structure-insensitive — tests should not change their result if the structure of the code changes.
+* Automated — tests should run without human intervention.
+* Specific — if a test fails, the cause of the failure should be obvious.
+* Deterministic — if nothing changes, the test result shouldn’t change.
+* Predictive — if the tests all pass, then the code under test should be suitable for production.
 
 _The idea of ​​taking notes came to me when I discovered [in.snippets(): TL;DR for engineers](https://insnippets.appsmith.com/)._
