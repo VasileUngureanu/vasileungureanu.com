@@ -68,4 +68,13 @@ Here are the notes that I took for you (and me) from the chapter.
   * Organize your unit tests to reflect your production code.
   * Organize your test in arrange, act and assert blocks.
   * Write the assertion first and work backward.
-  * Write fast, isolated, repeatable and self-validating tests.  
+  * Write fast, isolated, repeatable and self-validating tests.
+  
+* Considerations when making a failing test pass:
+
+  * Write the simplest code to pass the test.
+  * Write any code that makes you get to the refactor phase more quickly.
+
+* Considerations after the test passes:
+  
+  * Use the Rule of Three to tackle duplication.
