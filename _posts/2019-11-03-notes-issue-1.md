@@ -15,25 +15,23 @@ Here are the latest notes that I took for you (and me).
 
 [You Need a Blog](https://www.donnfelker.com/you-need-a-blog/)
 
-Because:
-
-* One of the best things to do for your career is to start blogging.
-* Blogging help make more money by increasing exposure.
+* Because:
+  * One of the best things to do for your career is to start blogging.
+  * Blogging help make more money by increasing exposure.
 
 [Why Every Professional Should Consider Blogging](https://technicalblogging.com/why-every-professional-should-consider-blogging/)
 
-Blogging can:
-
-* Improve your communication skills.
-* Improve your technical skills.
-* Provide you with a repository for your knowledge.
-* Help make powerful connections.
-* Help you make friends.
-* Provide you with a second income.
-* Score you freebies.
-* Advance your career.
-* Make you popular in your field.
-* Help you reach and teach a wide audience.
+* Blogging can:
+  * Improve your communication skills.
+  * Improve your technical skills.
+  * Provide you with a repository for your knowledge.
+  * Help make powerful connections.
+  * Help you make friends.
+  * Provide you with a second income.
+  * Score you freebies.
+  * Advance your career.
+  * Make you popular in your field.
+  * Help you reach and teach a wide audience.
 
 [Finding Time to Blog](https://technicalblogging.com/finding-time-to-blog/)
 

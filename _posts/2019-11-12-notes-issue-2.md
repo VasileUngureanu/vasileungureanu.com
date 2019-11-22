@@ -63,9 +63,8 @@ Here are the latest notes that I took for you (and me).
 
 [Rob Pike's 5 Rules of Programming](https://users.ece.utexas.edu/~adnan/pike.html)
 
-Despite that there are 5 rules, I personally took only these ideas:
-
-* In most of the cases simple algorithms are more suitable than fancy ones.
-* Data structures are central to programming, not algorithms because if you've chosen the right data structures and organized things well, the algorithms will almost always be self-evident.
+* Despite that there are 5 rules, I personally took only these ideas:
+  * In most of the cases simple algorithms are more suitable than fancy ones.
+  * Data structures are central to programming, not algorithms because if you've chosen the right data structures and organized things well, the algorithms will almost always be self-evident.
 
 _The idea of ​​taking notes came to me when I discovered [in.snippets(): TL;DR for engineers](https://insnippets.appsmith.com/)._

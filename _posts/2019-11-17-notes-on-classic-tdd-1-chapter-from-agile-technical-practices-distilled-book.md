@@ -14,14 +14,12 @@ Hi!
 Here are the notes that I took for you (and me) from the chapter.
 
 * Practicing TDD allows you to:
-
   * Spend less time debugging code to prove that it works.
   * Reduce the fear of changing code.
   * Use tests as living documentation.
   * Use tests as a feedback loop for design decisions.
   
 * The three laws of TDD:
-
   1. You are not allowed to write any production code unless it is to make a failing unit test pass.
   1. You are not allowed to write any more of a unit test that is sufficient to fail, and compilation failures are failures.
   1. You are not allowed to write any more production code that is sufficient to pass the one failing the unit test.
@@ -29,13 +27,11 @@ Here are the notes that I took for you (and me) from the chapter.
 * Extract duplication only when you see it for the third time.
 * Duplication is far easier to refactor than the wrong abstraction. Use the Rule of Three if you are not sure what the correct abstraction would look like.
 * Three methods of moving forward in TDD (from red to green):
-
   * Fake it!
   * Obvious implementation
   * Triangulation
   
 * A test name pattern:
-
 {% highlight java %}
 
 1  class MyClassShould
@@ -60,11 +56,9 @@ Here are the notes that I took for you (and me) from the chapter.
 {% endhighlight %}
 
 * Considerations when writing a new test:
-
   * Tests should test one thing only.
   * Create more specific tests to drive a more generic solution (triangulate) by adding new tests that force your code to pivot.
   * Give your tests meaningful names (behavior/goal-oriented) expressing your business domain.
-  
      * Avoid technical names for a test.
      * Avoid leaking implementation details in test names.
      * Avoid writing technical tests, write behavioral tests instead.
