@@ -14,4 +14,4 @@ If you are the publisher and think this content should not be public, please [co
 
 Hi!
 
-Here are the notes that I took for you (and me) from the chapter.
+Here are the notes that I took for you (and me) from the book.

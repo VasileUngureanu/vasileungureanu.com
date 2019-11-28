@@ -14,7 +14,7 @@ If you are the publisher and think this content should not be public, please [co
 
 Hi!
 
-Here are the notes that I took for you (and me) from the chapter.
+Here are the notes that I took for you (and me) from the book.
 
 * The purpose of software is to help people.
 * It is more important to reduce the effort of maintenance than it is to reduce the effort of implementation.
