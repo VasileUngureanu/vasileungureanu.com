@@ -47,12 +47,10 @@ Here are the latest notes that I took for you (and me).
   * Prioritize and keep track of technical debt: During the sprint planning for example.
   * Allocate time to address technical debt: Also During the sprint planning or when estimating a task that requires touching a sick part of the code.
   * Tech Debt Days: Another great practice where the team spends an entire day only focused on repairing affected code.
-
 * Paying Technical Debt at Company level:
   * Educate people about its existence: Cost of delay: This metric helps to make visible how much time a team loses due to technical debt.
   * Make it transparent: Talk, talk and talk and always bring it up to the table.
   * Communicate it properly: An idea would be to add a tech debt update meeting about the current state of it.
-
 * It is a reality that technical debt exists in 99% of the code bases, it is also an important challenge we must face to keep the healthiness and maintenance of our software projects.
 
 [Technical Debt](https://ronjeffries.com/articles/019-01ff/tech-debt-from-twitter/)

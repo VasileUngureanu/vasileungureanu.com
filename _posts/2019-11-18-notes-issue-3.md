@@ -41,17 +41,14 @@ Here are the latest notes that I took for you (and me).
 * Two rules of TDD by Kent Beck:
   1. Don’t write a line of new code unless you first have a failing automated test.
   1. Eliminate duplication.
-
 * The Three Laws of TDD by Uncle Bob:
   1. You are not allowed to write any production code unless it is to make a failing unit test pass.
   1. You are not allowed to write any more of a unit test that is sufficient to fail, and compilation failures are failures.
   1. You are not allowed to write any more production code that is sufficient to pass the one failing the unit test.
-
 * Three rules of TDD by Martin Fowler:
   1. Write a test for the next bit of functionality you want to add.
   1. Write the functional code until the test passes.
   1. Refactor both new and old code to make it well structured.
-
 * Guidelines:
   * We should not mix the Green and Refactoring phase of TDD-cycle.
   * We really need to refactor the code immediately after the Green phase.

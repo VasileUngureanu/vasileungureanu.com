@@ -7,7 +7,10 @@ tags: [book-notes, agile-technical-practices-distilled, design]
 
 ---
 
-_This post is part of a series of posts with my personal notes about the chapters in the book [Agile Technical Practices Distilled](https://leanpub.com/agiletechnicalpracticesdistilled). I do, however, strongly recommend reading the book to get the full benefit out of it._
+_This post is part of a series of posts with my personal notes about the chapters in the book [Agile Technical Practices Distilled](https://www.goodreads.com/book/show/41758433-agile-technical-practices-distilled).
+I do, however, strongly recommend reading the book to get the full benefit out of it.
+<br />
+If you are the publisher and think this content should not be public, please [contact me](/about) and I will remove it._
 
 Hi!
 
@@ -17,7 +20,6 @@ Here are the notes that I took for you (and me) from the chapter.
   * TDD is not enough.
   * DRY (Do not Repeat Yourself) is not enough.
   * TDD will punish you if you don’t understand design.  
-  
 * Object Calisthenics rules:
   1. Only one level of indentation per method.
   1. Don’t use the ELSE keyword.
@@ -29,7 +31,6 @@ Here are the notes that I took for you (and me) from the chapter.
   1. No classes with more than two instance variables.
   1. No getters/setters/properties.
   1. All classes must have state.
-
 * Considerations when writing a new test:
   * Tests should test one thing only.
   * Create more specific tests to drive a more generic solution (triangulate) by adding new tests that force your code to pivot.
@@ -37,7 +38,6 @@ Here are the notes that I took for you (and me) from the chapter.
      * Avoid technical names for a test.
      * Avoid leaking implementation details in test names.
      * Avoid writing technical tests, write behavioral tests instead.
-  
   * Always see the test fail for the right reason.
   * Ensure you have meaningful feedback from the failing test.
   * Keep your tests and production code separate.
@@ -45,13 +45,11 @@ Here are the notes that I took for you (and me) from the chapter.
   * Organize your test in arrange, act and assert blocks.
   * Write the assertion first and work backward.
   * Write fast, isolated, repeatable and self-validating tests.
-  
 * Considerations when making a failing test pass:
   * Write the simplest code to pass the test.
   * Write any code that makes you get to the refactor phase more quickly.
   * Use Transformation Priority Premise.
   * Consider using object calisthenics to drive design decisions.
-
 * Considerations after the test passes:
   * Use the Rule of Three to tackle duplication.
   * Refactor design constantly.
