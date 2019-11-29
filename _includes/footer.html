@@ -1,16 +1,16 @@
 <footer class="footer {% if site.scrollappear_enabled %}scrollappear{% endif %}">
     <ul class="header-links">
-        {% if site.about_enabled == true %}
-        <li>
-            <a href="{{ 'about' | relative_url }}" title="About">
-                About
-            </a>
-        </li>
-        {% endif %}
         {% if site.tags_enabled == true %}
         <li>
             <a href="{{ 'tags' | relative_url }}" title="Tags">
                 Tags
+            </a>
+        </li>
+        {% endif %}
+        {% if site.about_enabled == true %}
+        <li>
+            <a href="{{ 'about' | relative_url }}" title="About">
+                About
             </a>
         </li>
         {% endif %}

@@ -1,13 +1,6 @@
 <nav class="header-nav {% if site.scrollappear_enabled %}scrollappear{% endif %}">
   <a  id="name" href="{{ '/' | relative_url }}" class="header-logo" title="{{ site.name }}">{{ site.name }}</a>
   <ul class="header-links">
-    {% if site.about_enabled == true %}
-      <li>
-        <a href="{{ 'about' | relative_url }}" title="About">
-          About
-        </a>
-      </li>
-    {% endif %}
     {% if site.tags_enabled == true %}
     <li>
       <a href="{{ 'tags' | relative_url }}" title="Tags">
@@ -15,7 +8,14 @@
       </a>
     </li>
     {% endif %}
-<!--
+    {% if site.about_enabled == true %}
+    <li>
+      <a href="{{ 'about' | relative_url }}" title="About">
+        About
+      </a>
+    </li>
+    {% endif %}
+    <!--
     {% if site.social.twitter %}
       <li>
         <a href="https://twitter.com/{{ site.social.twitter }}" rel="noreferrer noopener" target="_blank" title="Twitter">
