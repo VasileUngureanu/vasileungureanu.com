@@ -1,17 +1,17 @@
 <nav class="header-nav {% if site.scrollappear_enabled %}scrollappear{% endif %}">
-  <a href="{{ '/' | relative_url }}" class="header-logo" title="{{ site.name }}">{{ site.name }}</a>
+  <a  id="name" href="{{ '/' | relative_url }}" class="header-logo" title="{{ site.name }}">{{ site.name }}</a>
   <ul class="header-links">
     {% if site.about_enabled == true %}
       <li>
-        <a href="{{ 'about' | relative_url }}" title="About me">
-          {% include svg-icon.html icon="about" %}
+        <a href="{{ 'about' | relative_url }}" title="About">
+          About
         </a>
       </li>
     {% endif %}
     {% if site.tags_enabled == true %}
     <li>
       <a href="{{ 'tags' | relative_url }}" title="Tags">
-        {% include svg-icon.html icon="tag" %}
+        Tags
       </a>
     </li>
     {% endif %}
@@ -174,7 +174,7 @@
     {% if site.rss_enabled == true %}
       <li>
         <a href="{{ 'feed.xml' | relative_url }}" rel="noreferrer noopener" target="_blank" title="RSS">
-          {% include svg-icon.html icon="rss" %}
+          RSS
         </a>
       </li>
     {% endif %}
