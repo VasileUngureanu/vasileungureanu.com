@@ -7,7 +7,10 @@ tags: [book-notes, agile-technical-practices-distilled, design]
 
 ---
 
-_This post is part of a series of posts with my personal notes about the chapters in the book [Agile Technical Practices Distilled](https://www.goodreads.com/book/show/41758433-agile-technical-practices-distilled).
+_This post is part of a series of posts with my personal notes on books that I read.
+<br />
+Taking notes helps a lot in my learning process, also it's useful to reread them occasionally in order to refresh my knowledge.
+<br />
 I do, however, strongly recommend reading the book to get the full benefit out of it.
 <br />
 If you are the publisher and think this content should not be public, please [contact me](/about) and I will remove it._
@@ -49,8 +52,8 @@ Here are the notes that I took for you (and me) from the chapter.
   * Write the simplest code to pass the test.
   * Write any code that makes you get to the refactor phase more quickly.
   * Use Transformation Priority Premise.
-  * Consider using object calisthenics to drive design decisions.
+  * Consider using object calisthenics to drive design decisions (**New habit**).
 * Considerations after the test passes:
   * Use the Rule of Three to tackle duplication.
-  * Refactor design constantly.
-  * Apply object calisthenics to improve your design.
+  * Refactor design constantly (**New habit**).
+  * Apply object calisthenics to improve your design (**New habit**).

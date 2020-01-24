@@ -7,9 +7,13 @@ tags: [book-notes, agile-technical-practices-distilled, design, refactoring]
 
 ---
 
-_This post is part of a series of posts with my personal notes about the chapters in the book [Agile Technical Practices Distilled](https://www.goodreads.com/book/show/41758433-agile-technical-practices-distilled).
+_This post is part of a series of posts with my personal notes on books that I read.
+<br />
+Taking notes helps a lot in my learning process, also it's useful to reread them occasionally in order to refresh my knowledge.
+<br />
 I do, however, strongly recommend reading the book to get the full benefit out of it.
-<br />If you are the publisher and think this content should not be public, please [contact me](/about) and I will remove it._
+<br />
+If you are the publisher and think this content should not be public, please [contact me](/about) and I will remove it._
 
 Hi!
 
@@ -62,6 +66,6 @@ Here are the notes that I took for you (and me) from the chapter.
   * Use the Rule of Three to tackle duplication.
   * Refactor design constantly.
   * Apply object calisthenics to improve your design.
-  * Stay on the green while refactoring.
-  * Use the IDE to refactor quickly and safely.
-  * Refactor code for readability/understandability first.
+  * Stay on the green while refactoring (**New habit**).
+  * Use the IDE to refactor quickly and safely (**New habit**).
+  * Refactor code for readability/understandability first (**New habit**).
