@@ -3,7 +3,7 @@
 layout: post
 title: "Notes: Issue #4"
 description: "Notes on articles I study, talks I watch and podcasts I listen."
-tags: [notes, tdd, refactoring, technical-debt, development]
+tags: [notes, tdd, refactoring, technical-debt, code-comments]
 
 ---
 
