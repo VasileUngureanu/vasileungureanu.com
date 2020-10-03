@@ -3,7 +3,7 @@
 layout: post
 title: Notes on "Code Simplicity" book
 description: "Notes on books I read."
-tags: [book-notes, development, design]
+tags: [development, design]
 
 ---
 

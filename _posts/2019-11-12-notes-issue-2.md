@@ -3,7 +3,7 @@
 layout: post
 title: "Notes: Issue #2"
 description: "Notes on articles I study, talks I watch and podcasts I listen."
-tags: [notes, remote-work, technical-blogging, programming]
+tags: [remote-work, technical-blogging, programming]
 
 ---
 

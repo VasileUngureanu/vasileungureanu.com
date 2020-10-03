@@ -1,38 +1,33 @@
 ---
 
 layout: post
-title: "Notes: Issue #1"
-description: "Notes on articles I study, talks I watch and podcasts I listen."
-tags: [technical-blogging, blogging]
+title: "Notes on Technical Blogging: Issue #1"
+tags: [technical-blogging]
 
 ---
 
-_This post is part of a series of posts with my personal notes on articles I study, talks I watch and podcasts I listen.
+_This post is part of a series of posts with my personal notes on content related to Technical Blogging.
 <br />
 Taking notes helps a lot in my learning process, also it's useful to reread them occasionally in order to refresh my knowledge._
 
 Hi!
 
-Here are the latest notes that I took for you (and me).
-
-### Articles
+Here are the latest notes that I took for you (and me):
 
 [You Need a Blog](https://www.donnfelker.com/you-need-a-blog/)
 
-* Because:
-  * One of the best things to do for your career is to start blogging.
-  * Blogging help make more money by increasing exposure.
+You need a Blog because it will help you to make more money by increasing exposure.
 
 [Why Every Professional Should Consider Blogging](https://technicalblogging.com/why-every-professional-should-consider-blogging/)
 
-* Blogging can:
+Every professional should consider Blogging because it can:
   * Improve your communication skills.
   * Improve your technical skills.
   * Provide you with a repository for your knowledge.
   * Help make powerful connections.
   * Help you make friends.
   * Provide you with a second income.
-  * Score you freebies.
+  * Score your freebies.
   * Advance your career.
   * Make you popular in your field.
   * Help you reach and teach a wide audience.
@@ -40,7 +35,7 @@ Here are the latest notes that I took for you (and me).
 [Finding Time to Blog](https://technicalblogging.com/finding-time-to-blog/)
 
 * “I don’t have time” is a lie, you have the same amount of time as the most brilliant and prolific people you can think of.
-* You should prioritize work such as blogging that help you hit your goals.
+* You should prioritize work such as blogging that helps you hit your goals.
 * What gets scheduled gets done.
 * Jot new ideas for additional posts into a file (paper or digital).
 

@@ -3,7 +3,7 @@
 layout: post
 title: Notes on "Pair Programming" chapter from "Agile Technical Practices Distilled" book
 description: "Notes on books I read."
-tags: [book-notes, agile-technical-practices-distilled, pair-programming]
+tags: [agile-technical-practices-distilled, pair-programming]
 
 ---
 

@@ -1,9 +1,8 @@
 ---
 
 layout: post
-title: Notes on "": Issue #
-description: Notes on the content related to .
-tags: [notes]
+title: "Notes on : Issue #"
+tags: []
 
 ---
 
@@ -17,10 +16,19 @@ Here are the latest notes that I took for you (and me):
 
 []()
 
-[]()
+
 
 []()
 
-[]()
+
 
 []()
+
+
+
+[]()
+
+
+
+[]()
+

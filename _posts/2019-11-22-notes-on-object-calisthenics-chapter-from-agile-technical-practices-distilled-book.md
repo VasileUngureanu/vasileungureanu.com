@@ -3,7 +3,7 @@
 layout: post
 title: Notes on "Design I - Object Calisthenics" chapter from "Agile Technical Practices Distilled" book
 description: "Notes on books I read."
-tags: [book-notes, agile-technical-practices-distilled, design]
+tags: [agile-technical-practices-distilled, design]
 
 ---
 

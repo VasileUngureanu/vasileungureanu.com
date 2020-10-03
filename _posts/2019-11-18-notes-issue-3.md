@@ -3,7 +3,7 @@
 layout: post
 title: "Notes: Issue #3"
 description: "Notes on articles I study, talks I watch and podcasts I listen."
-tags: [notes, pair-programming, tdd, testing]
+tags: [pair-programming, tdd, testing]
 
 ---
 
