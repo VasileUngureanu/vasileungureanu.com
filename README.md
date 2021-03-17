@@ -24,4 +24,4 @@ Make sure you have installed all of the following prerequisites on your developm
 License
 -------
 
-[MIT](LICENSE) @ 2019 Vasile Ungureanu
+[MIT](LICENSE) @ 2021 Vasile Ungureanu
