@@ -3,20 +3,20 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Vasile Ungureanu | Tags</title>
-  <meta name="description" content="">
+  <title>Vasile Ungureanu | Notes on "Classic TDD II" chapter from "Agile Technical Practices Distilled" book</title>
+  <meta name="description" content="Notes on books I read.">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <meta property="og:title" content="Tags">
+  <meta property="og:title" content="Notes on &quot;Classic TDD II&quot; chapter from &quot;Agile Technical Practices Distilled&quot; book">
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://vasileungureanu.com/tags">
-  <meta property="og:description" content="">
+  <meta property="og:url" content="https://vasileungureanu.com/posts/notes-on-classic-tdd-2-chapter-from-agile-technical-practices-distilled-book">
+  <meta property="og:description" content="Notes on books I read.">
   <meta property="og:site_name" content="Vasile Ungureanu">
 
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:url" content="https://vasileungureanu.com/tags">
-  <meta name="twitter:title" content="Tags">
-  <meta name="twitter:description" content="">
+  <meta name="twitter:url" content="https://vasileungureanu.com/posts/notes-on-classic-tdd-2-chapter-from-agile-technical-practices-distilled-book">
+  <meta name="twitter:title" content="Notes on &quot;Classic TDD II&quot; chapter from &quot;Agile Technical Practices Distilled&quot; book">
+  <meta name="twitter:description" content="Notes on books I read.">
 
   <link href="https://vasileungureanu.com/feed.xml" type="application/rss+xml" rel="alternate" title="Vasile Ungureanu Last 10 blog posts" />
 
@@ -122,239 +122,123 @@
   </ul>
 </nav>
 
-        <div class="tags-page">
-  <h1 class="tags-page-header">
-    Tags
-  </h1>
+        <article class="article scrollappear">
+          <header class="article-header">
+            <h1>Notes on "Classic TDD II" chapter from "Agile Technical Practices Distilled" book</h1>
+            <p>Notes on books I read.</p>
+            <div class="article-list-footer">
+              <span class="article-list-date">
+                November 19, 2019
+              </span>
+              <span class="article-list-divider">-</span>
+              <span class="article-list-minutes">
+                
+                
+                  2 minute read
+                
+              </span>
+              <span class="article-list-divider">-</span>
+              <div class="article-list-tags">
+                
+                  <a href="/tag/agile-technical-practices-distilled">agile-technical-practices-distilled</a>
+                
+                  <a href="/tag/tdd">tdd</a>
+                
+              </div>
+            </div>
+          </header>
 
-  
+          <div class="article-content">
+            <p><em>This post is part of a series of posts with my personal notes on books that I read.
+<br />
+Taking notes helps a lot in my learning process, also it’s useful to reread them occasionally in order to refresh my knowledge.
+<br />
+I do, however, strongly recommend reading the book to get the full benefit out of it.
+<br />
+If you are the publisher and think this content should not be public, please <a href="/about">contact me</a> and I will remove it.</em></p>
 
-  
+<p>Hi!</p>
 
-  
+<p>Here are the notes that I took for you (and me) from the chapter.</p>
 
-    
-    
-    
+<ul>
+  <li>Define the name of a test from the assertion.</li>
+  <li>Create a test in the next order:
+    <ol>
+      <li>Write the assertion first.</li>
+      <li>Write the code we need to perform the assertion.</li>
+      <li>Define the test name.</li>
+    </ol>
+  </li>
+  <li>Organize your test in arrange, act and assert blocks:</li>
+</ul>
 
-      
-      
+<figure class="highlight"><pre><code class="language-java" data-lang="java"><span class="c1">// Example using fizzbuzz:</span>
 
-    
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      <a class="tag-cloud" href="/tag/agile-technical-practices-distilled" title="See all posts by AGILE TECHNICAL PRACTICES DISTILLED tag"
-      style="font-size: 195%">
-        <span>AGILE TECHNICAL PRACTICES DISTILLED<small>(5)</small></span>
-      </a>
-    
+<span class="mi">1</span> <span class="c1">//Arrange block (aka Given) – create all necessary preconditions</span>
+<span class="mi">2</span> <span class="kt">var</span> <span class="n">fizzBuzzer</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">FizzBuzzer</span><span class="o">()</span>
+<span class="mi">3</span>
+<span class="mi">4</span> <span class="c1">//Act block (aka When) – execute the subject under test</span>
+<span class="mi">5</span> <span class="kt">var</span> <span class="n">fizzBuzzed</span> <span class="o">=</span> <span class="n">fizzBuzzer</span><span class="o">.</span><span class="na">FizzBuzz</span><span class="o">(</span><span class="mi">1</span><span class="o">)</span>
+<span class="mi">6</span>
+<span class="mi">7</span> <span class="c1">//Assert block (aka Then) – assert the expected results have occurred</span>
+<span class="mi">8</span> <span class="k">assert</span> <span class="n">fizzBuzzed</span> <span class="o">==</span> <span class="s">"1"</span></code></pre></figure>
 
-  
+<ul>
+  <li>Do not use these inline comments in your tests, using blank lines separation is enough.</li>
+  <li>Benefits from organizing tests in arrange, act and assert:
+    <ul>
+      <li>Clearly separates what is being tested from the setup and verification steps.</li>
+      <li>Clarifies and focuses attention on specific test responsibilities.</li>
+      <li>Makes some test smells more obvious, such as assertions intermixed with “Act” code or tests that test too many things at once.</li>
+    </ul>
+  </li>
+  <li>Unit test principles:
+    <ul>
+      <li>Fast</li>
+      <li>Isolated</li>
+      <li>Repeatable</li>
+      <li>Self-validating</li>
+      <li>Timely</li>
+    </ul>
+  </li>
+  <li>Considerations when writing a new test:
+    <ul>
+      <li>Tests should test one thing only.</li>
+      <li>Create more specific tests to drive a more generic solution (triangulate) by adding new tests that force your code to pivot.</li>
+      <li>Give your tests meaningful names (behavior/goal-oriented) expressing your business domain.
+        <ul>
+          <li>Avoid technical names for a test.</li>
+          <li>Avoid leaking implementation details in test names.</li>
+          <li>Avoid writing technical tests, write behavioral tests instead.</li>
+        </ul>
+      </li>
+      <li>Always see the test fail for the right reason.</li>
+      <li>Ensure you have meaningful feedback from the failing test.</li>
+      <li>Keep your tests and production code separate.</li>
+      <li>Organize your unit tests to reflect your production code.</li>
+      <li>Organize your test in arrange, act and assert blocks (<strong>New habit</strong>).</li>
+      <li>Write the assertion first and work backward (<strong>New habit</strong>).</li>
+      <li>Write fast, isolated, repeatable and self-validating tests (<strong>New habit</strong>).</li>
+    </ul>
+  </li>
+  <li>Considerations when making a failing test pass:
+    <ul>
+      <li>Write the simplest code to pass the test.</li>
+      <li>Write any code that makes you get to the refactor phase more quickly.</li>
+    </ul>
+  </li>
+  <li>Considerations after the test passes:
+    <ul>
+      <li>Use the Rule of Three to tackle duplication.</li>
+    </ul>
+  </li>
+</ul>
 
-    
-    
-    
+          </div>
 
-      
-      
-
-    
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      <a class="tag-cloud" href="/tag/blogging" title="See all posts by BLOGGING tag"
-      style="font-size: 135%">
-        <span>BLOGGING<small>(1)</small></span>
-      </a>
-    
-
-  
-
-    
-    
-    
-
-      
-      
-
-    
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      <a class="tag-cloud" href="/tag/code-comments" title="See all posts by CODE COMMENTS tag"
-      style="font-size: 135%">
-        <span>CODE COMMENTS<small>(1)</small></span>
-      </a>
-    
-
-  
-
-    
-    
-    
-
-      
-      
-
-    
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      <a class="tag-cloud" href="/tag/design" title="See all posts by DESIGN tag"
-      style="font-size: 165%">
-        <span>DESIGN<small>(3)</small></span>
-      </a>
-    
-
-  
-
-    
-    
-    
-
-      
-      
-
-    
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      <a class="tag-cloud" href="/tag/development" title="See all posts by DEVELOPMENT tag"
-      style="font-size: 135%">
-        <span>DEVELOPMENT<small>(1)</small></span>
-      </a>
-    
-
-  
-
-    
-    
-    
-
-      
-      
-
-    
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      <a class="tag-cloud" href="/tag/pair-programming" title="See all posts by PAIR PROGRAMMING tag"
-      style="font-size: 150%">
-        <span>PAIR PROGRAMMING<small>(2)</small></span>
-      </a>
-    
-
-  
-
-    
-    
-    
-
-      
-      
-
-    
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      <a class="tag-cloud" href="/tag/programming" title="See all posts by PROGRAMMING tag"
-      style="font-size: 135%">
-        <span>PROGRAMMING<small>(1)</small></span>
-      </a>
-    
-
-  
-
-    
-    
-    
-
-      
-      
-
-    
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      <a class="tag-cloud" href="/tag/refactoring" title="See all posts by REFACTORING tag"
-      style="font-size: 150%">
-        <span>REFACTORING<small>(2)</small></span>
-      </a>
-    
-
-  
-
-    
-    
-    
-
-      
-      
-
-    
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      <a class="tag-cloud" href="/tag/remote-work" title="See all posts by REMOTE WORK tag"
-      style="font-size: 135%">
-        <span>REMOTE WORK<small>(1)</small></span>
-      </a>
-    
-
-  
-
-    
-    
-    
-
-      
-      
-
-    
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      <a class="tag-cloud" href="/tag/tdd" title="See all posts by TDD tag"
-      style="font-size: 180%">
-        <span>TDD<small>(4)</small></span>
-      </a>
-    
-
-  
-
-    
-    
-    
-
-      
-      
-
-    
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      <a class="tag-cloud" href="/tag/technical-blogging" title="See all posts by TECHNICAL BLOGGING tag"
-      style="font-size: 165%">
-        <span>TECHNICAL BLOGGING<small>(3)</small></span>
-      </a>
-    
-
-  
-
-    
-    
-    
-
-      
-      
-
-    
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      <a class="tag-cloud" href="/tag/technical-debt" title="See all posts by TECHNICAL DEBT tag"
-      style="font-size: 135%">
-        <span>TECHNICAL DEBT<small>(1)</small></span>
-      </a>
-    
-
-  
-
-    
-    
-    
-
-      
-      
-
-    
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      <a class="tag-cloud" href="/tag/testing" title="See all posts by TESTING tag"
-      style="font-size: 135%">
-        <span>TESTING<small>(1)</small></span>
-      </a>
-    
-
-  
-</div>
-
+          
+        </article>
         <footer class="footer scrollappear">
     <ul class="header-links">
         

@@ -1,4 +1,0 @@
----
-slug: refactoring
-name: Refactoring
----

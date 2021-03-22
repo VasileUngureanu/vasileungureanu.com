@@ -1,0 +1,351 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Vasile Ungureanu | Notes on "Code Simplicity" book</title>
+  <meta name="description" content="Notes on books I read.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="Notes on &quot;Code Simplicity&quot; book">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://vasileungureanu.com/posts/notes-on-code-simplicity-book">
+  <meta property="og:description" content="Notes on books I read.">
+  <meta property="og:site_name" content="Vasile Ungureanu">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:url" content="https://vasileungureanu.com/posts/notes-on-code-simplicity-book">
+  <meta name="twitter:title" content="Notes on &quot;Code Simplicity&quot; book">
+  <meta name="twitter:description" content="Notes on books I read.">
+
+  <link href="https://vasileungureanu.com/feed.xml" type="application/rss+xml" rel="alternate" title="Vasile Ungureanu Last 10 blog posts" />
+
+  
+    <link rel="stylesheet" type="text/css" href="/assets/fonts-85dab368d056b5d66418fbfd7e55a89f34f644ee811c8218c81017204426121b.css">
+  
+
+  
+
+    
+      <link rel="icon" type="image/x-icon" href="/assets/favicon-light-5b9585d8185ef0aca4d7a8a8bc3b861bc4a42dcd58e677a5f29bee5f0bd102f6.ico">
+      <link rel="apple-touch-icon" href="/assets/apple-touch-icon-light-60b89b85e145cb568fbf6aba2e67c4c3559b5b5e2f08a2796ece0e2131fd7c8a.png">
+      <link rel="stylesheet" type="text/css" href="/assets/light-0d05fcaf37e80d35378722f82fd4c70a895fdbc53bf50e8b3ccb4ea44f3762c8.css">
+    
+
+  
+  
+</head>
+
+<body>
+  <main>
+    <div class="grid grid-centered">
+      <div class="grid-cell">
+        <nav class="header-nav scrollappear">
+  <a  id="name" href="/" class="header-logo" title="Vasile Ungureanu">Vasile Ungureanu</a>
+  <ul class="header-links">
+    
+    <li>
+      <a href="/tags" title="Tags">
+        Tags
+      </a>
+    </li>
+    
+    
+    <li>
+      <a href="/about" title="About">
+        About
+      </a>
+    </li>
+    
+    <!--
+    
+      <li>
+        <a href="https://twitter.com/vasilevung" rel="noreferrer noopener" target="_blank" title="Twitter">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-twitter">
+  <use href="/assets/twitter-8842c33965263ad1b03a978406826677a668f94125d5837e70ab83f24b3213a7.svg#icon-twitter" xlink:href="/assets/twitter-8842c33965263ad1b03a978406826677a668f94125d5837e70ab83f24b3213a7.svg#icon-twitter"></use>
+</svg>
+
+        </a>
+      </li>
+    
+    
+    
+    
+      <li>
+        <a href="https://github.com/vasilevungureanu" rel="noreferrer noopener" target="_blank" title="GitHub">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-github">
+  <use href="/assets/github-094f81040819f34343ee6ffff0980f17e2807b08b595eaaf66ae3554934fd78d.svg#icon-github" xlink:href="/assets/github-094f81040819f34343ee6ffff0980f17e2807b08b595eaaf66ae3554934fd78d.svg#icon-github"></use>
+</svg>
+
+        </a>
+      </li>
+    
+    
+    
+    
+    
+    
+    
+      <li>
+        <a href="https://www.linkedin.com/in/vasilevungureanu" rel="noreferrer noopener" target="_blank" title="LinkedIn">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-linkedin">
+  <use href="/assets/linkedin-cdc5c107044324a3dfbea2e9ead15873f8dee304c37d73a046988956b706256e.svg#icon-linkedin" xlink:href="/assets/linkedin-cdc5c107044324a3dfbea2e9ead15873f8dee304c37d73a046988956b706256e.svg#icon-linkedin"></use>
+</svg>
+
+        </a>
+      </li>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      <li>
+        <a href="mailto:vasile.v.ungureanu@gmail.com" title="Email">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-email">
+  <use href="/assets/email-782473193bf750036fdb90e8daa075508a20509d01854c09f3237c144a3f0601.svg#icon-email" xlink:href="/assets/email-782473193bf750036fdb90e8daa075508a20509d01854c09f3237c144a3f0601.svg#icon-email"></use>
+</svg>
+
+        </a>
+      </li>
+    
+-->
+    
+    
+  </ul>
+</nav>
+
+        <article class="article scrollappear">
+          <header class="article-header">
+            <h1>Notes on "Code Simplicity" book</h1>
+            <p>Notes on books I read.</p>
+            <div class="article-list-footer">
+              <span class="article-list-date">
+                November 28, 2019
+              </span>
+              <span class="article-list-divider">-</span>
+              <span class="article-list-minutes">
+                
+                
+                  4 minute read
+                
+              </span>
+              <span class="article-list-divider">-</span>
+              <div class="article-list-tags">
+                
+                  <a href="/tag/development">development</a>
+                
+                  <a href="/tag/design">design</a>
+                
+              </div>
+            </div>
+          </header>
+
+          <div class="article-content">
+            <p><em>This post is part of a series of posts with my personal notes on books that I read.
+<br />
+Taking notes helps a lot in my learning process, also it’s useful to reread them occasionally in order to refresh my knowledge.
+<br />
+I do, however, strongly recommend reading the book to get the full benefit out of it.
+<br />
+If you are the publisher and think this content should not be public, please <a href="/about">contact me</a> and I will remove it.</em></p>
+
+<p>Hi!</p>
+
+<p>Here are the notes that I took for you (and me) from the book.</p>
+
+<ul>
+  <li>The purpose of software is to help people.</li>
+  <li>It is more important to reduce the effort of maintenance than it is to reduce the effort of implementation.</li>
+  <li>The longer your program exists, the more probable it is that any piece of it will have to change.</li>
+  <li>The chance of introducing a defect into your program is proportional to the size of the changes you make to it.</li>
+  <li>The ease of maintenance of any piece of software is proportional to the simplicity of its individual pieces.</li>
+  <li>The degree to which you know how your software behaves is the degree to which you have accurately tested it.</li>
+  <li>The effort of maintenance is proportional to the complexity of the system.</li>
+  <li>The difference between a bad programmer and a good programmer is understanding. That is, bad programmers don’t understand what they are doing, and good programmers do.</li>
+  <li>A “good programmer” should do everything in his power to make what he writes as simple as possible to other programmers.</li>
+  <li>A program is:
+    <ul>
+      <li>A sequence of instructions given to the computer.</li>
+      <li>The actions taken by a computer as the result of being given instructions.</li>
+    </ul>
+  </li>
+  <li>Anything that involves the architecture of your software system or the technical decisions you make while creating the system falls under the category of “software design.”</li>
+  <li>Everybody who writes software is a designer.</li>
+  <li>Design is not a democracy. Decisions should be made by individuals.</li>
+  <li>There are laws of software design, they can be known, and you can know them. They are eternal, unchanging, and fundamentally true, and they work.</li>
+  <li>The goals of software design are:
+    <ul>
+      <li>To allow us to write software that is as helpful as possible.</li>
+      <li>To allow our software to continue to be as helpful as possible.</li>
+      <li>To design systems that can be created and maintained as easily as possible by their programmers, so that they can be—and continue to be—as helpful as possible.</li>
+    </ul>
+  </li>
+  <li>The quality level of your design should be proportional to the length of future time in which your system will continue to help people.</li>
+  <li>There are some things about the future that you do not know.</li>
+  <li>The most common and disastrous error that programmers make is predicting something about the future when in fact they cannot know.</li>
+  <li>You are safest if you don’t attempt to predict the future at all, and instead make all your design decisions based on immediately known present-time information.</li>
+  <li>The three mistakes (called “the three flaws” in this book) that software designers are prone to making in coping with the Law of Change are:
+    <ul>
+      <li>Writing code that isn’t needed.</li>
+      <li>Not making the code easy to change.</li>
+      <li>Being too generic.</li>
+    </ul>
+  </li>
+  <li>Don’t write code until you actually need it, and remove any code that isn’t being used.</li>
+  <li>Code should be designed based on what you know now, not on what you think will happen in the future.</li>
+  <li>When your design actually makes things more complex instead of simplifying things, you’re overengineering.</li>
+  <li>Be only as generic as you know you need to be right now.</li>
+  <li>You can avoid the three flaws by doing incremental development and design.</li>
+  <li>The best design is the one that allows for the most change in the environment with the least change in the software.</li>
+  <li>Never “fix” anything unless it’s a problem, and you have evidence showing that the problem really exists.</li>
+  <li>In any particular system, any piece of information should, ideally, exist only once.</li>
+  <li>The ease of maintenance of any piece of software is proportional to the simplicity of its individual pieces.</li>
+  <li>Simplicity is relative.`</li>
+  <li>If you really want to succeed, it is best to be stupid, dumb simple.</li>
+  <li>Be consistent.</li>
+  <li>Readability of code depends primarily on how space is occupied by letters and symbols.</li>
+  <li>Names should be long enough to fully communicate what something is or does without being so long that they become hard to read.</li>
+  <li>Comments should explain why the code is doing something, not what it is doing.</li>
+  <li>Simplicity requires design.</li>
+  <li>You can create complexity by:
+    <ul>
+      <li>Expanding the purpose of your software.</li>
+      <li>Adding programmers to the team.</li>
+      <li>Changing things that don’t need to be changed.</li>
+      <li>Being locked into bad technologies.</li>
+      <li>Misunderstanding.</li>
+      <li>Poor design or no design.</li>
+      <li>Reinventing the wheel.</li>
+      <li>Violating the purpose of your software.</li>
+    </ul>
+  </li>
+  <li>You can determine whether or not a technology is “bad” by looking at its survival potential, interoperability, and attention to quality.</li>
+  <li>Often, if something is getting very complex, that means there is an error in the design somewhere below the level where the complexity appears.</li>
+  <li>When presented with complexity, ask, “What problem are you trying to solve?”</li>
+  <li>Most difficult design problems can be solved by simply drawing or writing them out on paper.</li>
+  <li>To handle complexity in your system, redesign the individual pieces in small steps.</li>
+  <li>The key question behind all valid simplifications is, “How could this be easier to deal with or more understandable?”</li>
+  <li>If you run into an unfixable complexity outside of your program, put a wrapper around it that is simple for other programmers.</li>
+  <li>Rewriting is acceptable only in a very limited set of situations.</li>
+  <li>Unless you’ve tried it, you don’t know that it works.</li>
+</ul>
+
+          </div>
+
+          
+        </article>
+        <footer class="footer scrollappear">
+    <ul class="header-links">
+        
+        <li>
+            <a href="/tags" title="Tags">
+                Tags
+            </a>
+        </li>
+        
+        
+        <li>
+            <a href="/about" title="About">
+                About
+            </a>
+        </li>
+        
+        <!--
+            
+              <li>
+                <a href="https://twitter.com/vasilevung" rel="noreferrer noopener" target="_blank" title="Twitter">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="icon-twitter">
+  <use href="/assets/twitter-8842c33965263ad1b03a978406826677a668f94125d5837e70ab83f24b3213a7.svg#icon-twitter" xlink:href="/assets/twitter-8842c33965263ad1b03a978406826677a668f94125d5837e70ab83f24b3213a7.svg#icon-twitter"></use>
+</svg>
+
+                </a>
+              </li>
+            
+            
+            
+            
+              <li>
+                <a href="https://github.com/vasilevungureanu" rel="noreferrer noopener" target="_blank" title="GitHub">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="icon-github">
+  <use href="/assets/github-094f81040819f34343ee6ffff0980f17e2807b08b595eaaf66ae3554934fd78d.svg#icon-github" xlink:href="/assets/github-094f81040819f34343ee6ffff0980f17e2807b08b595eaaf66ae3554934fd78d.svg#icon-github"></use>
+</svg>
+
+                </a>
+              </li>
+            
+            
+            
+            
+            
+            
+            
+              <li>
+                <a href="https://www.linkedin.com/in/vasilevungureanu" rel="noreferrer noopener" target="_blank" title="LinkedIn">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="icon-linkedin">
+  <use href="/assets/linkedin-cdc5c107044324a3dfbea2e9ead15873f8dee304c37d73a046988956b706256e.svg#icon-linkedin" xlink:href="/assets/linkedin-cdc5c107044324a3dfbea2e9ead15873f8dee304c37d73a046988956b706256e.svg#icon-linkedin"></use>
+</svg>
+
+                </a>
+              </li>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+              <li>
+                <a href="mailto:vasile.v.ungureanu@gmail.com" title="Email">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="icon-email">
+  <use href="/assets/email-782473193bf750036fdb90e8daa075508a20509d01854c09f3237c144a3f0601.svg#icon-email" xlink:href="/assets/email-782473193bf750036fdb90e8daa075508a20509d01854c09f3237c144a3f0601.svg#icon-email"></use>
+</svg>
+
+                </a>
+              </li>
+            
+        -->
+        
+        
+    </ul>
+</footer>
+
+      </div>
+    </div>
+  </main>
+  
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-147818401-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-147818401-1');
+  </script>
+
+
+<script src="/assets/vendor-3f13f0165275d80c3cdec02f97bea6a433522bc06b3ab84718c6a9c4fa41051a.js" type="text/javascript"></script>
+
+
+
+
+  <script src="/assets/scrollappear-e2da8ea567e418637e31266cc5302126eaa79f62a2273739086358b589a89ee6.js" type="text/javascript"></script>
+
+
+<script src="/assets/application-cfde13ac81ddaf4351b2e739603e2baf688d0fcc9aba613fe62bbb1c7b037fb9.js" type="text/javascript"></script>
+
+
+</body>
+</html>

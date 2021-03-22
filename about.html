@@ -1,192 +1,292 @@
----
-layout: default
-title: "About"
-description: ""
----
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Vasile Ungureanu | About</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<div class="about-page">
+  <meta property="og:title" content="About">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://vasileungureanu.com/about">
+  <meta property="og:description" content="">
+  <meta property="og:site_name" content="Vasile Ungureanu">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:url" content="https://vasileungureanu.com/about">
+  <meta name="twitter:title" content="About">
+  <meta name="twitter:description" content="">
+
+  <link href="https://vasileungureanu.com/feed.xml" type="application/rss+xml" rel="alternate" title="Vasile Ungureanu Last 10 blog posts" />
+
+  
+    <link rel="stylesheet" type="text/css" href="/assets/fonts-85dab368d056b5d66418fbfd7e55a89f34f644ee811c8218c81017204426121b.css">
+  
+
+  
+
+    
+      <link rel="icon" type="image/x-icon" href="/assets/favicon-light-5b9585d8185ef0aca4d7a8a8bc3b861bc4a42dcd58e677a5f29bee5f0bd102f6.ico">
+      <link rel="apple-touch-icon" href="/assets/apple-touch-icon-light-60b89b85e145cb568fbf6aba2e67c4c3559b5b5e2f08a2796ece0e2131fd7c8a.png">
+      <link rel="stylesheet" type="text/css" href="/assets/light-0d05fcaf37e80d35378722f82fd4c70a895fdbc53bf50e8b3ccb4ea44f3762c8.css">
+    
+
+  
+  
+</head>
+
+<body>
+  <main>
+    <div class="grid grid-centered">
+      <div class="grid-cell">
+        <nav class="header-nav scrollappear">
+  <a  id="name" href="/" class="header-logo" title="Vasile Ungureanu">Vasile Ungureanu</a>
+  <ul class="header-links">
+    
+    <li>
+      <a href="/tags" title="Tags">
+        Tags
+      </a>
+    </li>
+    
+    
+    <li>
+      <a href="/about" title="About">
+        About
+      </a>
+    </li>
+    
+    <!--
+    
+      <li>
+        <a href="https://twitter.com/vasilevung" rel="noreferrer noopener" target="_blank" title="Twitter">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-twitter">
+  <use href="/assets/twitter-8842c33965263ad1b03a978406826677a668f94125d5837e70ab83f24b3213a7.svg#icon-twitter" xlink:href="/assets/twitter-8842c33965263ad1b03a978406826677a668f94125d5837e70ab83f24b3213a7.svg#icon-twitter"></use>
+</svg>
+
+        </a>
+      </li>
+    
+    
+    
+    
+      <li>
+        <a href="https://github.com/vasilevungureanu" rel="noreferrer noopener" target="_blank" title="GitHub">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-github">
+  <use href="/assets/github-094f81040819f34343ee6ffff0980f17e2807b08b595eaaf66ae3554934fd78d.svg#icon-github" xlink:href="/assets/github-094f81040819f34343ee6ffff0980f17e2807b08b595eaaf66ae3554934fd78d.svg#icon-github"></use>
+</svg>
+
+        </a>
+      </li>
+    
+    
+    
+    
+    
+    
+    
+      <li>
+        <a href="https://www.linkedin.com/in/vasilevungureanu" rel="noreferrer noopener" target="_blank" title="LinkedIn">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-linkedin">
+  <use href="/assets/linkedin-cdc5c107044324a3dfbea2e9ead15873f8dee304c37d73a046988956b706256e.svg#icon-linkedin" xlink:href="/assets/linkedin-cdc5c107044324a3dfbea2e9ead15873f8dee304c37d73a046988956b706256e.svg#icon-linkedin"></use>
+</svg>
+
+        </a>
+      </li>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      <li>
+        <a href="mailto:vasile.v.ungureanu@gmail.com" title="Email">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-email">
+  <use href="/assets/email-782473193bf750036fdb90e8daa075508a20509d01854c09f3237c144a3f0601.svg#icon-email" xlink:href="/assets/email-782473193bf750036fdb90e8daa075508a20509d01854c09f3237c144a3f0601.svg#icon-email"></use>
+</svg>
+
+        </a>
+      </li>
+    
+-->
+    
+    
+  </ul>
+</nav>
+
+        <div class="about-page">
     <h1 class="about-page-header">
         About
     </h1>
-    <img src="{% asset 'avatar.jpeg' @path %}" alt="Vasile Ungureanu's avatar" />
+    <img src="/assets/avatar-c2bbad7c23e4d73df160e339c76f67774d3bc77ab9f92c2ceda624d091d0218c.jpg" alt="Vasile Ungureanu's avatar" />
     <p>Aspiring software crafter</p>
-    <nav class="{% if site.scrollappear_enabled %}scrollappear{% endif %}">
+    <nav class="scrollappear">
         <ul class="about-links">
-            {% if site.social.twitter %}
+            
             <li>
-                <a href="https://twitter.com/{{ site.social.twitter }}" rel="noreferrer noopener" target="_blank"
+                <a href="https://twitter.com/vasilevung" rel="noreferrer noopener" target="_blank"
                    title="Twitter">
                     Twitter
                 </a>
             </li>
-            {% endif %}
-            {% if site.social.facebook %}
+            
+            
+            
+            
             <li>
-                <a href="https://www.facebook.com/{{ site.social.facebook }}" rel="noreferrer noopener" target="_blank"
-                   title="Facebook">
-                    Facebook
-                </a>
-            </li>
-            {% endif %}
-            {% if site.social.medium %}
-            <li>
-                <a href="https://medium.com/{{ site.social.medium }}" rel="noreferrer noopener" target="_blank"
-                   title="Medium">
-                    {% include svg-icon.html icon="medium" %}
-                </a>
-            </li>
-            {% endif %}
-            {% if site.social.github %}
-            <li>
-                <a href="https://github.com/{{ site.social.github }}" rel="noreferrer noopener" target="_blank"
+                <a href="https://github.com/vasilevungureanu" rel="noreferrer noopener" target="_blank"
                    title="GitHub">
                     Github
                 </a>
             </li>
-            {% endif %}
-            {% if site.social.gitlab %}
+            
+            
+            
+            
+            
+            
+            
             <li>
-                <a href="https://gitlab.com/{{ site.social.gitlab }}" rel="noreferrer noopener" target="_blank"
-                   title="GitLab">
-                    {% include svg-icon.html icon="gitlab" %}
-                </a>
-            </li>
-            {% endif %}
-            {% if site.social.bitbucket %}
-            <li>
-                <a href="https://bitbucket.org/{{ site.social.bitbucket }}" rel="noreferrer noopener" target="_blank"
-                   title="Bitbucket">
-                    {% include svg-icon.html icon="bitbucket" %}
-                </a>
-            </li>
-            {% endif %}
-            {% if site.social.stackoverflow %}
-            <li>
-                <a href="https://stackoverflow.com/users/{{ site.social.stackoverflow }}" rel="noreferrer noopener"
-                   target="_blank" title="Stack Overflow">
-                    {% include svg-icon.html icon="stackoverflow" %}
-                </a>
-            </li>
-            {% endif %}
-            {% if site.social.keybase %}
-            <li>
-                <a href="https://keybase.io/{{ site.social.keybase }}" rel="noreferrer noopener" target="_blank"
-                   title="Keybase">
-                    {% include svg-icon.html icon="keybase" %}
-                </a>
-            </li>
-            {% endif %}
-            {% if site.social.docker %}
-            <li>
-                <a href="https://hub.docker.com/r/{{ site.social.docker }}" rel="noreferrer noopener" target="_blank"
-                   title="Docker Hub">
-                    {% include svg-icon.html icon="docker" %}
-                </a>
-            </li>
-            {% endif %}
-            {% if site.social.linkedin %}
-            <li>
-                <a href="https://www.linkedin.com/in/{{ site.social.linkedin }}" rel="noreferrer noopener"
+                <a href="https://www.linkedin.com/in/vasilevungureanu" rel="noreferrer noopener"
                    target="_blank" title="LinkedIn">
                     Linkedin
                 </a>
             </li>
-            {% endif %}
-            {% if site.social.dribbble %}
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
             <li>
-                <a href="https://dribbble.com/{{ site.social.dribbble }}" rel="noreferrer noopener" target="_blank"
-                   title="Dribbble">
-                    {% include svg-icon.html icon="dribbble" %}
-                </a>
-            </li>
-            {% endif %}
-            {% if site.social.flickr %}
-            <li>
-                <a href="https://www.flickr.com/photos/{{ site.social.flickr }}" rel="noreferrer noopener"
-                   target="_blank" title="Flickr">
-                    {% include svg-icon.html icon="flickr" %}
-                </a>
-            </li>
-            {% endif %}
-            {% if site.social.instagram %}
-            <li>
-                <a href="https://instagram.com/{{ site.social.instagram }}" rel="noreferrer noopener" target="_blank"
-                   title="Instagram">
-                    {% include svg-icon.html icon="instagram" %}
-                </a>
-            </li>
-            {% endif %}
-            {% if site.social.tumblr %}
-            <li>
-                <a href="https://{{ site.social.tumblr }}.tumblr.com" rel="noreferrer noopener" target="_blank"
-                   title="Tumblr">
-                    {% include svg-icon.html icon="tumblr" %}
-                </a>
-            </li>
-            {% endif %}
-            {% if site.social.spotify %}
-            <li>
-                <a href="https://play.spotify.com/user/{{ site.social.spotify }}" rel="noreferrer noopener"
-                   target="_blank" title="Spotify">
-                    {% include svg-icon.html icon="spotify" %}
-                </a>
-            </li>
-            {% endif %}
-            {% if site.social.youtube %}
-            <li>
-                <a href="https://www.youtube.com/user/{{ site.social.youtube }}" rel="noreferrer noopener"
-                   target="_blank" title="Youtube">
-                    {% include svg-icon.html icon="youtube" %}
-                </a>
-            </li>
-            {% endif %}
-            {% if site.social.twitch %}
-            <li>
-                <a href="https://www.twitch.tv/{{ site.social.twitch }}" rel="noreferrer noopener" target="_blank"
-                   title="Twitch">
-                    {% include svg-icon.html icon="twitch" %}
-                </a>
-            </li>
-            {% endif %}
-            {% if site.social.steam %}
-            <li>
-                <a href="https://steamcommunity.com/id/{{ site.social.steam }}" rel="noreferrer noopener"
-                   target="_blank" title="Steam">
-                    {% include svg-icon.html icon="steam" %}
-                </a>
-            </li>
-            {% endif %}
-            {% if site.social.discord %}
-            <li>
-                <a href="https://discord.gg/{{ site.social.discord }}" rel="noreferrer noopener" target="_blank"
-                   title="Discord Server">
-                    {% include svg-icon.html icon="discord" %}
-                </a>
-            </li>
-            {% endif %}
-            {% if site.social.bitcoin %}
-            <li>
-                <a href="https://blockexplorer.com/address/{{ site.social.bitcoin }}" rel="noreferrer noopener"
-                   target="_blank" title="Bitcoin">
-                    {% include svg-icon.html icon="bitcoin" %}
-                </a>
-            </li>
-            {% endif %}
-            {% if site.social.ethereum %}
-            <li>
-                <a href="https://etherscan.io/address/{{ site.social.ethereum }}" rel="noreferrer noopener"
-                   target="_blank" title="Ethereum">
-                    {% include svg-icon.html icon="ethereum" %}
-                </a>
-            </li>
-            {% endif %}
-            {% if site.social.email %}
-            <li>
-                <a href="mailto:{{ site.social.email }}" title="Email">
+                <a href="mailto:vasile.v.ungureanu@gmail.com" title="Email">
                     Email
                 </a>
             </li>
-            {% endif %}
+            
         </ul>
     </nav>
 </div>
+
+        <footer class="footer scrollappear">
+    <ul class="header-links">
+        
+        <li>
+            <a href="/tags" title="Tags">
+                Tags
+            </a>
+        </li>
+        
+        
+        <li>
+            <a href="/about" title="About">
+                About
+            </a>
+        </li>
+        
+        <!--
+            
+              <li>
+                <a href="https://twitter.com/vasilevung" rel="noreferrer noopener" target="_blank" title="Twitter">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="icon-twitter">
+  <use href="/assets/twitter-8842c33965263ad1b03a978406826677a668f94125d5837e70ab83f24b3213a7.svg#icon-twitter" xlink:href="/assets/twitter-8842c33965263ad1b03a978406826677a668f94125d5837e70ab83f24b3213a7.svg#icon-twitter"></use>
+</svg>
+
+                </a>
+              </li>
+            
+            
+            
+            
+              <li>
+                <a href="https://github.com/vasilevungureanu" rel="noreferrer noopener" target="_blank" title="GitHub">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="icon-github">
+  <use href="/assets/github-094f81040819f34343ee6ffff0980f17e2807b08b595eaaf66ae3554934fd78d.svg#icon-github" xlink:href="/assets/github-094f81040819f34343ee6ffff0980f17e2807b08b595eaaf66ae3554934fd78d.svg#icon-github"></use>
+</svg>
+
+                </a>
+              </li>
+            
+            
+            
+            
+            
+            
+            
+              <li>
+                <a href="https://www.linkedin.com/in/vasilevungureanu" rel="noreferrer noopener" target="_blank" title="LinkedIn">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="icon-linkedin">
+  <use href="/assets/linkedin-cdc5c107044324a3dfbea2e9ead15873f8dee304c37d73a046988956b706256e.svg#icon-linkedin" xlink:href="/assets/linkedin-cdc5c107044324a3dfbea2e9ead15873f8dee304c37d73a046988956b706256e.svg#icon-linkedin"></use>
+</svg>
+
+                </a>
+              </li>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+              <li>
+                <a href="mailto:vasile.v.ungureanu@gmail.com" title="Email">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="icon-email">
+  <use href="/assets/email-782473193bf750036fdb90e8daa075508a20509d01854c09f3237c144a3f0601.svg#icon-email" xlink:href="/assets/email-782473193bf750036fdb90e8daa075508a20509d01854c09f3237c144a3f0601.svg#icon-email"></use>
+</svg>
+
+                </a>
+              </li>
+            
+        -->
+        
+        
+    </ul>
+</footer>
+
+      </div>
+    </div>
+  </main>
+  
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-147818401-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-147818401-1');
+  </script>
+
+
+<script src="/assets/vendor-3f13f0165275d80c3cdec02f97bea6a433522bc06b3ab84718c6a9c4fa41051a.js" type="text/javascript"></script>
+
+
+
+
+  <script src="/assets/scrollappear-e2da8ea567e418637e31266cc5302126eaa79f62a2273739086358b589a89ee6.js" type="text/javascript"></script>
+
+
+<script src="/assets/application-cfde13ac81ddaf4351b2e739603e2baf688d0fcc9aba613fe62bbb1c7b037fb9.js" type="text/javascript"></script>
+
+
+</body>
+</html>

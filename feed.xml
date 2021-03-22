@@ -1,20 +1,90 @@
----
----
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="https://www.w3.org/2005/Atom" xmlns:dc="https://purl.org/dc/elements/1.1/">
   <channel>
-    <title>{{ site.name | xml_escape }}</title>
-    <description>{% if site.description %}{{ site.description | xml_escape }}{% endif %}</description>
-    <link>{{ site.url }}</link>
-    <atom:link href="{{ page.path | absolute_url }}" rel="self" type="application/rss+xml" />
-    {% for post in site.posts limit:10 %}
+    <title>Vasile Ungureanu</title>
+    <description></description>
+    <link>https://vasileungureanu.com</link>
+    <atom:link href="https://vasileungureanu.com/feed.xml" rel="self" type="application/rss+xml" />
+    
       <item>
-        <title>{{ post.title | xml_escape }}</title>
-        <description>{{ post.description | xml_escape }}</description>
-        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-        <link>{{ post.url | absolute_url }}</link>
-        <guid isPermaLink="true">{{ post.url | absolute_url }}</guid>
+        <title>Notes on Technical Blogging: Issue #1</title>
+        <description></description>
+        <pubDate>Sat, 03 Oct 2020 00:00:00 +0300</pubDate>
+        <link>https://vasileungureanu.com/posts/notes-on-technical-blogging-issue-1</link>
+        <guid isPermaLink="true">https://vasileungureanu.com/posts/notes-on-technical-blogging-issue-1</guid>
       </item>
-    {% endfor %}
+    
+      <item>
+        <title>Notes on &quot;Code Simplicity&quot; book</title>
+        <description>Notes on books I read.</description>
+        <pubDate>Thu, 28 Nov 2019 00:00:00 +0200</pubDate>
+        <link>https://vasileungureanu.com/posts/notes-on-code-simplicity-book</link>
+        <guid isPermaLink="true">https://vasileungureanu.com/posts/notes-on-code-simplicity-book</guid>
+      </item>
+    
+      <item>
+        <title>Notes: Issue #4</title>
+        <description>Notes on articles I study, talks I watch and podcasts I listen.</description>
+        <pubDate>Tue, 26 Nov 2019 00:00:00 +0200</pubDate>
+        <link>https://vasileungureanu.com/posts/notes-issue-4</link>
+        <guid isPermaLink="true">https://vasileungureanu.com/posts/notes-issue-4</guid>
+      </item>
+    
+      <item>
+        <title>Notes on &quot;Design II - Refactoring&quot; chapter from &quot;Agile Technical Practices Distilled&quot; book</title>
+        <description>Notes on books I read.</description>
+        <pubDate>Sun, 24 Nov 2019 00:00:00 +0200</pubDate>
+        <link>https://vasileungureanu.com/posts/notes-on-refactoring-chapter-from-agile-technical-practices-distilled-book</link>
+        <guid isPermaLink="true">https://vasileungureanu.com/posts/notes-on-refactoring-chapter-from-agile-technical-practices-distilled-book</guid>
+      </item>
+    
+      <item>
+        <title>Notes on &quot;Design I - Object Calisthenics&quot; chapter from &quot;Agile Technical Practices Distilled&quot; book</title>
+        <description>Notes on books I read.</description>
+        <pubDate>Fri, 22 Nov 2019 00:00:00 +0200</pubDate>
+        <link>https://vasileungureanu.com/posts/notes-on-object-calisthenics-chapter-from-agile-technical-practices-distilled-book</link>
+        <guid isPermaLink="true">https://vasileungureanu.com/posts/notes-on-object-calisthenics-chapter-from-agile-technical-practices-distilled-book</guid>
+      </item>
+    
+      <item>
+        <title>Notes on &quot;Classic TDD II&quot; chapter from &quot;Agile Technical Practices Distilled&quot; book</title>
+        <description>Notes on books I read.</description>
+        <pubDate>Tue, 19 Nov 2019 00:00:00 +0200</pubDate>
+        <link>https://vasileungureanu.com/posts/notes-on-classic-tdd-2-chapter-from-agile-technical-practices-distilled-book</link>
+        <guid isPermaLink="true">https://vasileungureanu.com/posts/notes-on-classic-tdd-2-chapter-from-agile-technical-practices-distilled-book</guid>
+      </item>
+    
+      <item>
+        <title>Notes: Issue #3</title>
+        <description>Notes on articles I study, talks I watch and podcasts I listen.</description>
+        <pubDate>Mon, 18 Nov 2019 00:00:00 +0200</pubDate>
+        <link>https://vasileungureanu.com/posts/notes-issue-3</link>
+        <guid isPermaLink="true">https://vasileungureanu.com/posts/notes-issue-3</guid>
+      </item>
+    
+      <item>
+        <title>Notes on &quot;Classic TDD I - Test-Driven Development&quot; chapter from &quot;Agile Technical Practices Distilled&quot; book</title>
+        <description>Notes on books I read.</description>
+        <pubDate>Sun, 17 Nov 2019 00:00:00 +0200</pubDate>
+        <link>https://vasileungureanu.com/posts/notes-on-classic-tdd-1-chapter-from-agile-technical-practices-distilled-book</link>
+        <guid isPermaLink="true">https://vasileungureanu.com/posts/notes-on-classic-tdd-1-chapter-from-agile-technical-practices-distilled-book</guid>
+      </item>
+    
+      <item>
+        <title>Notes on &quot;Pair Programming&quot; chapter from &quot;Agile Technical Practices Distilled&quot; book</title>
+        <description>Notes on books I read.</description>
+        <pubDate>Sat, 16 Nov 2019 00:00:00 +0200</pubDate>
+        <link>https://vasileungureanu.com/posts/notes-on-pair-programming-chapter-from-agile-technical-practices-distilled-book</link>
+        <guid isPermaLink="true">https://vasileungureanu.com/posts/notes-on-pair-programming-chapter-from-agile-technical-practices-distilled-book</guid>
+      </item>
+    
+      <item>
+        <title>Notes: Issue #2</title>
+        <description>Notes on articles I study, talks I watch and podcasts I listen.</description>
+        <pubDate>Tue, 12 Nov 2019 00:00:00 +0200</pubDate>
+        <link>https://vasileungureanu.com/posts/notes-issue-2</link>
+        <guid isPermaLink="true">https://vasileungureanu.com/posts/notes-issue-2</guid>
+      </item>
+    
   </channel>
 </rss>
